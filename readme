@@ -1,0 +1,10 @@
+### Run commands
+
+> Executing classes inside com.mavixk.maventest package
+
+> Use below cmd to execute NestedInterfaceDemo example from any directory
+
+**Note the argument to -cp is till one level up the package root
+ directory**
+
+` java -cp ./TestMaven/target/classes/ com.mavixk.maventest.NestedInterfaceDemo`
