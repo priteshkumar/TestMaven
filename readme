@@ -1,4 +1,18 @@
+### Maven commands
+> Use below compiler:compile goal command passing compiler.source/target
+
+> -D option enables defining system property
+ 
+`mvn compile -Dmaven.compiler.source=1.8 -Dmaven.compiler.target=1.8`
+
+> use below command to get compiler:compile help 
+
+`mvn compiler:help -Ddetail=true -Dgoal=compile`
+
+
 ### Run commands
+
+
 
 > Executing classes inside com.mavixk.maventest package
 
